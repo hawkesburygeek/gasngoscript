@@ -1,0 +1,460 @@
+.modal-backdrop {
+	z-index: 0 !important;
+}
+.invalid-text {
+    color: red;
+}
+#card-distributor-details::before, #card-distributor-details::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    left: 19px;
+}
+#card-distributor-details::before {
+    border-color: #ccc transparent;
+    top: -10px;
+    left: 19px;
+}
+#card-distributor-details::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-color: #fff transparent;
+    border-width: 0 10px 10px 10px;
+    top: -9px;
+}
+.step1-title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 62px;
+}
+.container {
+    font-family: Montserrat;
+}
+.img-map-marker {
+    width: 25px;
+}
+.step1-check-mark {
+    width: 50px;
+}
+.input-group-gas-modal {
+    box-shadow: inset 0px 2px 4px rgb(0 0 0 / 20%);
+    background: white;
+    border-radius: 6px !important;
+    padding: 4px 0;
+}
+.input-group-gas span.input-group-text {
+    background-color: white;
+    color: #9ca7b0;
+}
+.input-group-prefix-modal, .gas-input-modal {
+    background-color: transparent !important;
+}
+.gas-input-modal {
+    padding-left: 12px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 42px !important;
+}
+.gas-input-postcode-modal {
+    padding-left: 5px !important;
+}
+.input-group-prefix-postcode-modal {
+    padding-left: 10px !important;
+}
+.input-group-gas input {
+    padding-right: 0 !important;
+}
+.input-group-gas input, .input-group-gas select, .input-group-gas input:focus, .input-group-gas select:focus {
+    border: none !important;
+    box-shadow: none;
+    outline: none !important;
+    margin-right: 0 !important;
+}
+.input-group-gas select option {
+    width: 300px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.input-group-gas .input-group-prefix {
+    padding-right: 0 !important;
+    border: none !important;
+}
+.input-group-gas .input-group-suffix {
+    padding-left: 0 !important;
+    margin-left: -2px !important;
+    width: 70px !important;
+    border: none !important;
+}
+.container-order {
+    width: 100% !important;
+}
+.btn-step1 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    border-radius: 45px !important;
+    border: none !important;
+    background: linear-gradient(50deg, #28326d 0%, #3e66b5 100%);
+    box-shadow: none !important;
+}
+.btn-check-postcode {
+       
+}
+.btn-step1:disabled {
+    background: #9ca7b0 !important;
+}
+.step-1-row .col {
+    height: 80px;
+}
+.input-group-postcode1, .btn-step1 {
+    height: 80px;
+}
+.input-group-postcode1 input, .input-group-postcode1, .input-group-postcode1 option {
+    font-size: 22px !important;
+}
+.gas-select-prefix {
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    border: none !important;
+    left: 5px;
+    /* border-radius: 4px !important; */
+}
+.gas-select {
+    border: none !important;
+    padding-left: 55px !important;
+    border-radius: 4px !important;
+}
+.img-cylinder-small {
+    width: 20px;
+    margin-right: 16px;
+}
+.gas-dropdown-toggle {
+    text-align: left !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    font-size: 22px !important;
+    height: 80px !important;
+    display: flex !important;
+    align-items: center;
+}
+/* .gas-dropdown-toggle-modal {
+
+} */
+.gas-dropdown-toggle::after {
+    position: absolute;
+    right: 16px !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.gas-input-modal, .gas-select-modal {
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+.gas-select-modal {
+    height: 50px !important;
+    background-color: white !important;
+}
+.gas-dropdown-menu {
+    width: 100%;
+    padding: 0 !important;
+}
+.gas-dropdown-item {
+    padding: 16px 8px;
+    cursor: pointer;
+    font-size: 22px !important;
+}
+.company-dropdown-item, .gas-dropdown-item-modal {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px !important;
+}
+.gas-dropdown-item:hover, .company-dropdown-item:hover, .gas-dropdown-item-modal:hover {
+    background-color: rgba(204, 204, 204, 0.404);
+}
+.img-modal-close {
+    width: 35px !important;
+}
+.btn-modal-close {
+    border: none !important;
+    background: none !important;
+    padding-right: 0 !important;
+}
+.modal-header {
+    border: none !important;
+}
+.order-card {
+    max-width: 860px !important;
+    margin: auto !important;
+    background-color: #F6F6EB !important;
+    border: 1px solid #EBEBDD !important;
+    border-radius: 16px !important;
+    padding: 80px 20px !important;
+
+}
+.order-container {
+    max-width: 500px !important;
+    margin: auto !important;
+    width: 100% !important;
+}
+.distributor-container-modal {
+    max-width: 850px !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+.order-card-title {
+    font-size: 46px !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    color: #1e196a !important;
+}
+.order-card-subtitle {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.distributor-subtitle {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #4c4f54 !important;
+    padding: 20px 60px !important;
+}
+.distributor-subtitle-2 {
+    line-height: 40px !important;
+}
+.checkmark-order {
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: -45px !important;
+}
+.dropdown-grid-company, .dropdown-gas-modal {
+    align-items: center !important;
+}
+.card-distributor-details {
+    padding: 25px 20px !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    background-color: #fffff7;
+    background-blend-mode: normal;
+}
+.contact-instruction {
+    color: #1E196A !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+.company-name-modal {
+    /* color: #1e196a; */
+    font-weight: 700;
+    margin-bottom: 5px !important;
+}
+.company-info-modal {
+    font-weight: 500;
+    margin-left: 5px;
+}
+.company-icon {
+    width: 16px;
+}
+.company-phone-modal {
+    margin-left: 5px;
+}
+.company-info-col, .company-address-col {
+    display: flex;
+    align-items: center;
+    /* flex: auto; */
+    margin-top: 5px;
+    margin-right: 10px;
+}
+/* .company-phone-col {
+    margin-right: 15px;
+} */
+.company-info-row {
+    flex-wrap: wrap;
+}
+.input-container-modal {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.checkmark-order-input {
+    margin-right: -35px !important;
+}
+.company-dropdown-toggle, .gas-dropdown-toggle-modal, .active-input-modal {
+    border: 3px solid #60DAC0 !important;
+    box-shadow: none;
+}
+.btn-send-order {
+    height: 60px !important;
+    border-radius: 30px !important;
+    background: linear-gradient(43deg, #eb6038 0%, #e3ce4c 100%) !important;
+    background-blend-mode: normal !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-top: 15px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.alert-submit {
+    position: fixed !important;
+    z-index: 10000 !important;
+    top: 20px !important;
+    right: 20px !important;
+}
+.alert-submit .btn-close {
+    background-color: transparent !important;
+}
+.alert-success span {
+    color: #0f5132 !important;
+}
+.link-become-distributor {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #1E196A !important;
+    font-size: 18px !important;
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+}
+.footer-become-distributor {
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    padding: 0 !important;
+}
+.body-become-distributor {
+    font-size: 14px !important;
+    padding: 0 !important;
+    text-transform: uppercase !important;
+}
+.img-gas-toggle {
+    width: 20px !important;
+}
+.dropdown-nav-gas {
+    width: 100vw !important;
+    right: -15px !important;
+}
+.dropdown-nav-gas li a {
+    font-family: Montserrat !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #1e196a !important;
+}
+.btn-nav-trigger {
+    background-color: transparent !important;
+}
+.location-name {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #1e196a !important;
+}
+.location-header, .location-body, .location-footer {
+    padding: 17px !important;
+}
+.location-body, .location-footer {
+    background-color: white !important;
+}
+.location-header {
+    border-bottom: 1px solid #f6f7fa !important;
+}
+.location-address {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
+.location-direction {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-decoration: unset !important;
+    color: #1E196A !important;
+    display: flex;
+    align-items: center;
+}
+
+.location-direction img {
+    width: 24px !important;
+    margin-left: 8px !important;
+}
+.location-header img {
+    width: 120px !important;
+    margin-bottom: 5px !important;
+}
+.location-body {
+    border-bottom: 1px solid #f6f7fa !important;
+}
+.location-phone, .location-email, .location-facebook {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-bottom: 7px !important;
+    word-break: break-all !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    color: black !important
+}
+.location-footer img {
+    width: 20px !important;
+    margin-right: 5px !important;
+}
+.location-facebook {
+    text-decoration: unset !important;
+    color: black !important;
+}
+.premium-maps-container .gm-style-iw {
+    background-color: #fefef2 !important;
+    max-height: 500px !important;
+    padding: 0 !important;
+}
+.gm-style-iw-d {
+    max-height: 500px !important;
+    max-width: 240px !important;
+    overflow: auto !important;
+}
+.premium-maps-info-title {
+    display: none !important;
+}
+.input-group-postcodecheck {
+    width: 300px !important;
+}
+#postCode1::placeholder {
+    color: black !important;
+    font-family: Montserrat !important;
+}
+.mobile-phone-item {
+    display: flex !important;
+    align-items: center !important;
+}
+.mobile-phone-item img {
+    width: 19px !important;
+    margin-right: 4px !important;
+}
+@media only screen and (max-width: 600px) {
+    .body-become-distributor {
+        font-size: 10px !important;
+    }
+    .step1-title {
+        font-size: 27px !important;
+        line-height: inherit !important;
+    }
+    .checkmark-order {
+        display: none !important;
+    }
+    .company-dropdown-toggle span {
+        text-overflow: ellipsis !important;
+        max-width: 180px !important;
+        overflow: hidden !important;
+    }
+}
